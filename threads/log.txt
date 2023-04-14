@@ -1,0 +1,909 @@
+Time 0
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 1
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 2
+Waiting clients: Client(id=1, arrivalTime=2, serviceTime=4); Client(id=2, arrivalTime=1, serviceTime=7); 
+Queue 1: Client(id=1, arrivalTime=2, serviceTime=4); 
+Queue 2: Client(id=2, arrivalTime=1, serviceTime=7); 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 3
+Waiting clients: Client(id=1, arrivalTime=2, serviceTime=3); Client(id=2, arrivalTime=1, serviceTime=6); Client(id=3, arrivalTime=3, serviceTime=7); Client(id=4, arrivalTime=2, serviceTime=4); Client(id=5, arrivalTime=3, serviceTime=7); 
+Queue 1: Client(id=1, arrivalTime=2, serviceTime=3); 
+Queue 2: Client(id=2, arrivalTime=1, serviceTime=6); 
+Queue 3: Client(id=3, arrivalTime=3, serviceTime=7); 
+Queue 4: Client(id=4, arrivalTime=2, serviceTime=4); 
+Queue 5: Client(id=5, arrivalTime=3, serviceTime=7); 
+
+
+Time 4
+Waiting clients: Client(id=1, arrivalTime=2, serviceTime=2); Client(id=6, arrivalTime=4, serviceTime=7); Client(id=2, arrivalTime=1, serviceTime=5); Client(id=8, arrivalTime=4, serviceTime=5); Client(id=3, arrivalTime=3, serviceTime=6); Client(id=9, arrivalTime=1, serviceTime=9); Client(id=4, arrivalTime=2, serviceTime=3); Client(id=7, arrivalTime=4, serviceTime=7); Client(id=5, arrivalTime=3, serviceTime=6); Client(id=10, arrivalTime=2, serviceTime=8); 
+Queue 1: Client(id=1, arrivalTime=2, serviceTime=2); Client(id=6, arrivalTime=4, serviceTime=7); 
+Queue 2: Client(id=2, arrivalTime=1, serviceTime=5); Client(id=8, arrivalTime=4, serviceTime=5); 
+Queue 3: Client(id=3, arrivalTime=3, serviceTime=6); Client(id=9, arrivalTime=1, serviceTime=9); 
+Queue 4: Client(id=4, arrivalTime=2, serviceTime=3); Client(id=7, arrivalTime=4, serviceTime=7); 
+Queue 5: Client(id=5, arrivalTime=3, serviceTime=6); Client(id=10, arrivalTime=2, serviceTime=8); 
+
+
+Time 5
+Waiting clients: Client(id=1, arrivalTime=2, serviceTime=1); Client(id=6, arrivalTime=4, serviceTime=7); Client(id=2, arrivalTime=1, serviceTime=4); Client(id=8, arrivalTime=4, serviceTime=5); Client(id=3, arrivalTime=3, serviceTime=5); Client(id=9, arrivalTime=1, serviceTime=9); Client(id=4, arrivalTime=2, serviceTime=2); Client(id=7, arrivalTime=4, serviceTime=7); Client(id=5, arrivalTime=3, serviceTime=5); Client(id=10, arrivalTime=2, serviceTime=8); 
+Queue 1: Client(id=1, arrivalTime=2, serviceTime=1); Client(id=6, arrivalTime=4, serviceTime=7); 
+Queue 2: Client(id=2, arrivalTime=1, serviceTime=4); Client(id=8, arrivalTime=4, serviceTime=5); 
+Queue 3: Client(id=3, arrivalTime=3, serviceTime=5); Client(id=9, arrivalTime=1, serviceTime=9); 
+Queue 4: Client(id=4, arrivalTime=2, serviceTime=2); Client(id=7, arrivalTime=4, serviceTime=7); 
+Queue 5: Client(id=5, arrivalTime=3, serviceTime=5); Client(id=10, arrivalTime=2, serviceTime=8); 
+
+
+Time 6
+Waiting clients: Client(id=6, arrivalTime=4, serviceTime=7); Client(id=2, arrivalTime=1, serviceTime=3); Client(id=8, arrivalTime=4, serviceTime=5); Client(id=3, arrivalTime=3, serviceTime=4); Client(id=9, arrivalTime=1, serviceTime=9); Client(id=4, arrivalTime=2, serviceTime=1); Client(id=7, arrivalTime=4, serviceTime=7); Client(id=5, arrivalTime=3, serviceTime=4); Client(id=10, arrivalTime=2, serviceTime=8); 
+Queue 1: Client(id=6, arrivalTime=4, serviceTime=7); 
+Queue 2: Client(id=2, arrivalTime=1, serviceTime=3); Client(id=8, arrivalTime=4, serviceTime=5); 
+Queue 3: Client(id=3, arrivalTime=3, serviceTime=4); Client(id=9, arrivalTime=1, serviceTime=9); 
+Queue 4: Client(id=4, arrivalTime=2, serviceTime=1); Client(id=7, arrivalTime=4, serviceTime=7); 
+Queue 5: Client(id=5, arrivalTime=3, serviceTime=4); Client(id=10, arrivalTime=2, serviceTime=8); 
+
+
+Time 7
+Waiting clients: Client(id=6, arrivalTime=4, serviceTime=6); Client(id=2, arrivalTime=1, serviceTime=2); Client(id=8, arrivalTime=4, serviceTime=5); Client(id=3, arrivalTime=3, serviceTime=3); Client(id=9, arrivalTime=1, serviceTime=9); Client(id=7, arrivalTime=4, serviceTime=7); Client(id=5, arrivalTime=3, serviceTime=3); Client(id=10, arrivalTime=2, serviceTime=8); 
+Queue 1: Client(id=6, arrivalTime=4, serviceTime=6); 
+Queue 2: Client(id=2, arrivalTime=1, serviceTime=2); Client(id=8, arrivalTime=4, serviceTime=5); 
+Queue 3: Client(id=3, arrivalTime=3, serviceTime=3); Client(id=9, arrivalTime=1, serviceTime=9); 
+Queue 4: Client(id=7, arrivalTime=4, serviceTime=7); 
+Queue 5: Client(id=5, arrivalTime=3, serviceTime=3); Client(id=10, arrivalTime=2, serviceTime=8); 
+
+
+Time 8
+Waiting clients: Client(id=6, arrivalTime=4, serviceTime=5); Client(id=2, arrivalTime=1, serviceTime=1); Client(id=8, arrivalTime=4, serviceTime=5); Client(id=3, arrivalTime=3, serviceTime=2); Client(id=9, arrivalTime=1, serviceTime=9); Client(id=7, arrivalTime=4, serviceTime=6); Client(id=5, arrivalTime=3, serviceTime=2); Client(id=10, arrivalTime=2, serviceTime=8); 
+Queue 1: Client(id=6, arrivalTime=4, serviceTime=5); 
+Queue 2: Client(id=2, arrivalTime=1, serviceTime=1); Client(id=8, arrivalTime=4, serviceTime=5); 
+Queue 3: Client(id=3, arrivalTime=3, serviceTime=2); Client(id=9, arrivalTime=1, serviceTime=9); 
+Queue 4: Client(id=7, arrivalTime=4, serviceTime=6); 
+Queue 5: Client(id=5, arrivalTime=3, serviceTime=2); Client(id=10, arrivalTime=2, serviceTime=8); 
+
+
+Time 9
+Waiting clients: Client(id=6, arrivalTime=4, serviceTime=4); Client(id=8, arrivalTime=4, serviceTime=5); Client(id=3, arrivalTime=3, serviceTime=1); Client(id=9, arrivalTime=1, serviceTime=9); Client(id=7, arrivalTime=4, serviceTime=5); Client(id=5, arrivalTime=3, serviceTime=1); Client(id=10, arrivalTime=2, serviceTime=8); 
+Queue 1: Client(id=6, arrivalTime=4, serviceTime=4); 
+Queue 2: Client(id=8, arrivalTime=4, serviceTime=5); 
+Queue 3: Client(id=3, arrivalTime=3, serviceTime=1); Client(id=9, arrivalTime=1, serviceTime=9); 
+Queue 4: Client(id=7, arrivalTime=4, serviceTime=5); 
+Queue 5: Client(id=5, arrivalTime=3, serviceTime=1); Client(id=10, arrivalTime=2, serviceTime=8); 
+
+
+Time 10
+Waiting clients: Client(id=6, arrivalTime=4, serviceTime=3); Client(id=8, arrivalTime=4, serviceTime=4); Client(id=9, arrivalTime=1, serviceTime=9); Client(id=7, arrivalTime=4, serviceTime=4); Client(id=10, arrivalTime=2, serviceTime=8); 
+Queue 1: Client(id=6, arrivalTime=4, serviceTime=3); 
+Queue 2: Client(id=8, arrivalTime=4, serviceTime=4); 
+Queue 3: Client(id=9, arrivalTime=1, serviceTime=9); 
+Queue 4: Client(id=7, arrivalTime=4, serviceTime=4); 
+Queue 5: Client(id=10, arrivalTime=2, serviceTime=8); 
+
+
+Time 11
+Waiting clients: Client(id=6, arrivalTime=4, serviceTime=2); Client(id=8, arrivalTime=4, serviceTime=3); Client(id=9, arrivalTime=1, serviceTime=8); Client(id=7, arrivalTime=4, serviceTime=3); Client(id=10, arrivalTime=2, serviceTime=7); 
+Queue 1: Client(id=6, arrivalTime=4, serviceTime=2); 
+Queue 2: Client(id=8, arrivalTime=4, serviceTime=3); 
+Queue 3: Client(id=9, arrivalTime=1, serviceTime=8); 
+Queue 4: Client(id=7, arrivalTime=4, serviceTime=3); 
+Queue 5: Client(id=10, arrivalTime=2, serviceTime=7); 
+
+
+Time 12
+Waiting clients: Client(id=6, arrivalTime=4, serviceTime=1); Client(id=8, arrivalTime=4, serviceTime=2); Client(id=9, arrivalTime=1, serviceTime=7); Client(id=7, arrivalTime=4, serviceTime=2); Client(id=10, arrivalTime=2, serviceTime=6); 
+Queue 1: Client(id=6, arrivalTime=4, serviceTime=1); 
+Queue 2: Client(id=8, arrivalTime=4, serviceTime=2); 
+Queue 3: Client(id=9, arrivalTime=1, serviceTime=7); 
+Queue 4: Client(id=7, arrivalTime=4, serviceTime=2); 
+Queue 5: Client(id=10, arrivalTime=2, serviceTime=6); 
+
+
+Time 13
+Waiting clients: Client(id=8, arrivalTime=4, serviceTime=1); Client(id=9, arrivalTime=1, serviceTime=6); Client(id=7, arrivalTime=4, serviceTime=1); Client(id=10, arrivalTime=2, serviceTime=5); 
+Queue 1: 
+Queue 2: Client(id=8, arrivalTime=4, serviceTime=1); 
+Queue 3: Client(id=9, arrivalTime=1, serviceTime=6); 
+Queue 4: Client(id=7, arrivalTime=4, serviceTime=1); 
+Queue 5: Client(id=10, arrivalTime=2, serviceTime=5); 
+
+
+Time 14
+Waiting clients: Client(id=9, arrivalTime=1, serviceTime=5); Client(id=10, arrivalTime=2, serviceTime=4); 
+Queue 1: 
+Queue 2: 
+Queue 3: Client(id=9, arrivalTime=1, serviceTime=5); 
+Queue 4: 
+Queue 5: Client(id=10, arrivalTime=2, serviceTime=4); 
+
+
+Time 15
+Waiting clients: Client(id=9, arrivalTime=1, serviceTime=4); Client(id=10, arrivalTime=2, serviceTime=3); 
+Queue 1: 
+Queue 2: 
+Queue 3: Client(id=9, arrivalTime=1, serviceTime=4); 
+Queue 4: 
+Queue 5: Client(id=10, arrivalTime=2, serviceTime=3); 
+
+
+Time 16
+Waiting clients: Client(id=9, arrivalTime=1, serviceTime=3); Client(id=10, arrivalTime=2, serviceTime=2); 
+Queue 1: 
+Queue 2: 
+Queue 3: Client(id=9, arrivalTime=1, serviceTime=3); 
+Queue 4: 
+Queue 5: Client(id=10, arrivalTime=2, serviceTime=2); 
+
+
+Time 17
+Waiting clients: Client(id=9, arrivalTime=1, serviceTime=2); Client(id=10, arrivalTime=2, serviceTime=1); 
+Queue 1: 
+Queue 2: 
+Queue 3: Client(id=9, arrivalTime=1, serviceTime=2); 
+Queue 4: 
+Queue 5: Client(id=10, arrivalTime=2, serviceTime=1); 
+
+
+Time 18
+Waiting clients: Client(id=9, arrivalTime=1, serviceTime=1); 
+Queue 1: 
+Queue 2: 
+Queue 3: Client(id=9, arrivalTime=1, serviceTime=1); 
+Queue 4: 
+Queue 5: 
+
+
+Time 19
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 20
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 21
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 22
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 23
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 24
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 25
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 26
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 27
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 28
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 29
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 30
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 31
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 32
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 33
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 34
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 35
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 36
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 37
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 38
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 39
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 40
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 41
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 42
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 43
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 44
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 45
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 46
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 47
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 48
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 49
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 50
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 51
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 52
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 53
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 54
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 55
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 56
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 57
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 58
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 59
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 60
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 61
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 62
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 63
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 64
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 65
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 66
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 67
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 68
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 69
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 70
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 71
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 72
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 73
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 74
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 75
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 76
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 77
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 78
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 79
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 80
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 81
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 82
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 83
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 84
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 85
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 86
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 87
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 88
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 89
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 90
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 91
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 92
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 93
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 94
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 95
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 96
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 97
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 98
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 99
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
+Time 100
+Waiting clients: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+Queue 5: 
+
+
