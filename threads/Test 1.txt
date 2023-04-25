@@ -1,366 +1,135 @@
-Time 0
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
 Time 1
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 2
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 3
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 4
-Waiting clients: 
-Queue 1: 
+Queue 1: Client(id=1, arrivalTime=3, serviceTime=1);
 Queue 2: 
 
 
 Time 5
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 6
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 7
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 8
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2: Client(id=3, arrivalTime=7, serviceTime=1);
 
 
 Time 9
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 10
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 11
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 12
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 13
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 14
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 15
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 16
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1: Client(id=4, arrivalTime=15, serviceTime=1);
+Queue 2:
 
 
 Time 17
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 18
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 19
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 20
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 21
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 22
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 23
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 24
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 
 Time 25
-Waiting clients: Client(id=1, arrivalTime=25, serviceTime=1); Client(id=2, arrivalTime=23, serviceTime=2); 
-Queue 1: Client(id=1, arrivalTime=25, serviceTime=1); 
-Queue 2: Client(id=2, arrivalTime=23, serviceTime=2); 
+Queue 1:
+Queue 2: Client(id=2, arrivalTime=24, serviceTime=2);
 
 
 Time 26
-Waiting clients: Client(id=2, arrivalTime=23, serviceTime=1); 
-Queue 1: 
-Queue 2: Client(id=2, arrivalTime=23, serviceTime=1); 
+Queue 1:
+Queue 2: Client(id=2, arrivalTime=24, serviceTime=1);
 
 
 Time 27
-Waiting clients: Client(id=3, arrivalTime=27, serviceTime=2); 
-Queue 1: Client(id=3, arrivalTime=27, serviceTime=2); 
-Queue 2: 
-
-
-Time 28
-Waiting clients: Client(id=3, arrivalTime=27, serviceTime=1); 
-Queue 1: Client(id=3, arrivalTime=27, serviceTime=1); 
-Queue 2: 
-
-
-Time 29
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 30
-Waiting clients: Client(id=4, arrivalTime=30, serviceTime=1); 
-Queue 1: 
-Queue 2: Client(id=4, arrivalTime=30, serviceTime=1); 
-
-
-Time 31
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 32
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 33
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 34
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 35
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 36
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 37
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 38
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 39
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 40
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 41
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 42
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 43
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 44
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 45
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 46
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 47
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 48
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 49
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 50
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 51
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 52
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 53
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 54
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 55
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 56
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 57
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 58
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 59
-Waiting clients: 
-Queue 1: 
-Queue 2: 
-
-
-Time 60
-Waiting clients: 
-Queue 1: 
-Queue 2: 
+Queue 1:
+Queue 2:
 
 

@@ -12,6 +12,4 @@ class Client {
     int id;
     int arrivalTime;
     int serviceTime;
-
-
 }

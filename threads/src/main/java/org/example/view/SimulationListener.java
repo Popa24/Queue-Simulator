@@ -1,7 +1,6 @@
 package org.example.view;
 
 
-
 import org.example.model.Client;
 import org.example.model.Queue;
 

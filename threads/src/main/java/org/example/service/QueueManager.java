@@ -8,11 +8,17 @@ import java.util.List;
 
 public class QueueManager {
     public List<Queue> queues;
+    public List<Thread> queueThreads;
 
     public QueueManager(int numQueues) {
         queues = new ArrayList<>();
+        queueThreads = new ArrayList<>();
         for (int i = 0; i < numQueues; i++) {
-            queues.add(new Queue());
+            Queue queue = new Queue();
+            queues.add(queue);
+            Thread thread = new Thread(queue);
+            queueThreads.add(thread);
+            thread.start();
         }
     }
 
@@ -24,7 +30,11 @@ public class QueueManager {
         return (float) totalWaitingTime / numClients;
     }
 
-    public boolean addClientToShortestQueue(Client client) {
+    public synchronized boolean addClientToShortestQueue(Client client, int currentTime) {
+        if (client.getArrivalTime() > currentTime) {
+            return false; // Do not add the client if its arrival time is greater than the current time
+        }
+
         Queue shortestQueue = queues.get(0);
         for (Queue queue : queues) {
             if (queue.waitingTime < shortestQueue.waitingTime) {
@@ -34,14 +44,14 @@ public class QueueManager {
         return shortestQueue.addClient(client);
     }
 
-    public void updateQueues() {
-        for (Queue queue : queues) {
-            queue.updateServiceTime();
-        }
-    }
-
     public List<Queue> getQueues() {
         return queues;
+    }
+
+    public void stopAllQueues() {
+        for (Queue queue : queues) {
+            queue.stop();
+        }
     }
 }
 

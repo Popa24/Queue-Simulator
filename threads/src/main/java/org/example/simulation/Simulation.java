@@ -1,6 +1,7 @@
 package org.example.simulation;
 
 import org.example.model.Client;
+import org.example.model.Queue;
 import org.example.service.Logger;
 import org.example.service.QueueManager;
 import org.example.service.RandomClientGenerator;
@@ -8,7 +9,6 @@ import org.example.view.SimulationListener;
 
 import java.util.ArrayList;
 import java.util.List;
-
 
 public class Simulation implements Runnable {
     int numClients;
@@ -35,55 +35,58 @@ public class Simulation implements Runnable {
         this.serviceMin = serviceMin;
         this.serviceMax = serviceMax;
         queueManager = new QueueManager(numQueues);
-        logger = new Logger("Test 3.txt");
+        logger = new Logger("Test 4.txt");
     }
-    private List<Client> generateNewClients(int currentTime) {
-        List<Client> newClients = new ArrayList<>();
-        for (int i = 1; i <= numClients; i++) {
-            Client client = RandomClientGenerator.generateClient(i, arrivalMin, arrivalMax, serviceMin, serviceMax);
-            if (client.getArrivalTime() == currentTime) {
-                newClients.add(client);
-            }
-        }
-        return newClients;
-    }
-
 
     @Override
     public void run() {
         int currentTime = 0;
-        List<Client> waitingClients = new ArrayList<>();
+        List<Client> allClients = generateAllClients();
+        List<Client> waitingClients = new ArrayList<>(allClients);
 
-        while (currentTime < simulationMax) {
-            // Add new clients that arrive at this time to waitingClients
-            List<Client> newClients = generateNewClients(currentTime);
-            waitingClients.addAll(newClients);
+        while (!isSimulationFinished(waitingClients, queueManager.getQueues()) && currentTime <= simulationMax) {
 
-            // Try to assign waiting clients to queues
-            waitingClients.removeIf(client -> queueManager.addClientToShortestQueue(client));
+            int finalCurrentTime = currentTime;
 
-            // Update the state of the queues
-            queueManager.updateQueues();
 
-            // Call the listener to update the GUI
+            waitingClients.removeIf(client -> client.getArrivalTime() == finalCurrentTime && queueManager.addClientToShortestQueue(client, finalCurrentTime));
+
+
             if (simulationListener != null) {
                 simulationListener.onSimulationUpdate(currentTime, queueManager.getQueues(), waitingClients);
             }
 
-            // Increment time
-            currentTime++;
-             try {
-                 Thread.sleep(1000); // Sleep for 1 second.
-             } catch (InterruptedException e) {
-                 e.printStackTrace();
-             }
 
-            // Log the state of the queues
+            currentTime++;
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+
             logger.logQueueState(currentTime, queueManager.getQueues());
         }
 
-// Calculate and display the average waiting time.
+
+        queueManager.stopAllQueues();
+
         float averageWaitingTime = queueManager.calculateAverageWaitingTime(numClients);
         System.out.println("Average waiting time for Lidl Simulation is : " + averageWaitingTime);
+        logger.logAverageWaitingTime(averageWaitingTime);
+    }
+
+    private boolean isSimulationFinished(List<Client> waitingClients, List<Queue> queues) {
+        boolean areQueuesEmpty = queues.stream().allMatch(queue -> queue.getClients().isEmpty());
+        return waitingClients.isEmpty() && areQueuesEmpty;
+    }
+
+    private List<Client> generateAllClients() {
+        List<Client> allClients = new ArrayList<>();
+        for (int i = 1; i <= numClients; i++) {
+            Client client = RandomClientGenerator.generateClient(i, arrivalMin, arrivalMax, serviceMin, serviceMax);
+            allClients.add(client);
+        }
+        return allClients;
     }
 }

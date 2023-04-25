@@ -103,12 +103,4 @@ public class SimulationGUI extends JFrame implements SimulationListener {
 
         queueStateTextArea.setText(queueStateTextArea.getText() + state);
     }
-
-
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            SimulationGUI gui = new SimulationGUI();
-            gui.setVisible(true);
-        });
-    }
 }

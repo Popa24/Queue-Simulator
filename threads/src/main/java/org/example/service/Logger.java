@@ -18,12 +18,14 @@ public class Logger {
             e.printStackTrace();
         }
     }
+
     public void logQueueState(int currentTime, List<Queue> queues) {
         StringBuilder logBuilder = new StringBuilder();
         logBuilder.append("Time ").append(currentTime).append("\n");
 
         int queueNumber = 1;
         for (Queue queue : queues) {
+
             logBuilder.append("Queue ").append(queueNumber).append(": ");
             for (Client client : queue.getClients()) {
                 logBuilder.append(client.toString()).append("; ");
@@ -37,4 +39,8 @@ public class Logger {
         logWriter.flush();
     }
 
+    public void logAverageWaitingTime(float averageWaitingTime) {
+        logWriter.println("Average waiting time for Lidl Simulation is : " + averageWaitingTime);
+        logWriter.flush();
+    }
 }
